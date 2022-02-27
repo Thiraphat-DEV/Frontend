@@ -1,0 +1,38 @@
+.transaction {
+	display: flex;
+	background-color: #e55;
+	width: 100vw;
+	margin-top: 25px;
+	border-radius: .5em;
+	padding: 15px;
+	align-items: center;
+}
+
+h2, p {
+	margin: 0;
+}
+
+.item{
+	flex-shrink: 0;
+}
+
+.getLocal {
+	display: flex;
+	justify-content: flex-end;
+	width: 100vw;
+}
+
+.delete {
+	margin-left: 15px
+}
+
+.items {
+	width: 32px;
+	height: 32px;
+	background-color: brown;
+	border: 8px;
+	justify-content: center;
+	align-items: center;
+	cursor: crosshair;
+	
+}
